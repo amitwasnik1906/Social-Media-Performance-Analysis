@@ -9,10 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^6.3.1",
+    "@mui/styled-engine-sc": "^6.3.1",
+    "@mui/x-charts": "^7.23.2",
     "axios": "^1.7.9",
     "next": "^15.1.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "recharts": "^2.15.0",
+    "styled-components": "^6.1.14"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
