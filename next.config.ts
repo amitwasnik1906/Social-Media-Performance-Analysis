@@ -8,9 +8,6 @@ module.exports = {
   reactStrictMode: true,
   eslint: {
       ignoreDuringBuilds: true,
-  },
-  experimental: {
-    optimizeCss: true,
   }
 }
 

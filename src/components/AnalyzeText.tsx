@@ -34,7 +34,7 @@ const AnalyzeText = ({ text }: any) => {
   return (
     <div className="container mx-auto">
 
-      <div className="bg-white rounded-lg ">
+      <div className="bg-white rounded-lg " id = "analysis">
         <div className="px-6 py-4 border-b border-gray-200">
           <h2 className="text-xl font-semibold text-gray-800">Engagement</h2>
         </div>
