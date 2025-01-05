@@ -6,8 +6,9 @@ const Header = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
-          <div className="flex-shrink-0">
-            <span className="text-2xl font-bold text-gray-800">Logo</span>
+          <div className="flex-shrink-0 text-center">
+            {/* <p className="text-sm">Team</p> */}
+            <span className="text-2xl font-bold text-gray-800">Axios</span>
           </div>
 
           {/* Navigation Links */}

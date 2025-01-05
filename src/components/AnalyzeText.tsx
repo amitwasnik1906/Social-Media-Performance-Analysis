@@ -41,6 +41,9 @@ const AnalyzeText = ({ text }: any) => {
 
         <Table postData={postData} />
 
+        <div className="">
+            
+        </div>
       </div>
 
       <div className="bg-white rounded-lg border border-gray-200 overflow-hidden my-10" id="insights">

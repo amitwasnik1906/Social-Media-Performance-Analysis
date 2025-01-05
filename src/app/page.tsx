@@ -11,6 +11,7 @@ export default async function Home() {
   // console.log(output)
   // const text = output
 
+  await new Promise(resolve => setTimeout(resolve, 4000))
   const text = `
     Post Type,Average Likes,Average Comments,Average Shares
     Carousel,128.24,62.44,43.64
@@ -28,6 +29,7 @@ export default async function Home() {
         <div className="py-10 flex justify-center">
           <h1><a className="btn-shine">Social Media Performance Analysis</a></h1>
         </div>
+
         <AnalyzeText text = {text}/>
 
       </div>

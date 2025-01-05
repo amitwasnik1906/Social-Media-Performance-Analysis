@@ -14,41 +14,10 @@ interface GraphCardProps {
     postData: PostData[];
 }
 
-export default function GraphCard({ postData = [] }: GraphCardProps) {
+export default function GraphCard() {
 
-    const series = [
-        {
-            data: postData.map((item: PostData) => item.likes),
-        },
-        {
-            data: postData.map((item: PostData) => item.comments),
-        },
-        {
-            data: postData.map((item: PostData) => item.shares),
-        },
-    ];
-
-    console.log(series);
-
-    return (
-        <div className="w-full h-96">
-            <BarChart
-                xAxis={[
-                    {
-                        data: ['Carousel', 'Reel', 'Static Image'],
-                        scaleType: 'band',
-                    },
-                ]}
-                
-                series={series}
-                height={400}
-                slotProps={{
-                    legend: {
-                        direction: 'row',
-                        position: { vertical: 'bottom', horizontal: 'middle' },
-                    },
-                }}
-            />
-        </div>
-    );
+    return(
+        <>
+        </>
+    )
 }
