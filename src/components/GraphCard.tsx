@@ -1,7 +1,7 @@
 'use client';
+/* eslint-disable no-use-before-define */
 
 import React from 'react';
-import { BarChart } from '@mui/x-charts';
 
 interface PostData {
     type: string;

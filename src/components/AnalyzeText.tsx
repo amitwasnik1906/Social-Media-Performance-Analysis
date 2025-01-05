@@ -1,5 +1,4 @@
-import React, { FC } from "react";
-import GraphCard from "./GraphCard";
+import React from "react";
 import Table from "./Table";
 
 interface PostData {

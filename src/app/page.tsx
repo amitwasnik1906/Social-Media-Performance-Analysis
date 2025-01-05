@@ -1,3 +1,5 @@
+/* eslint-disable no-use-before-define */
+
 import About from "@/components/About";
 import AnalyzeText from "@/components/AnalyzeText";
 import Footer from "@/components/Footer";
