@@ -38,21 +38,7 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-@-moz-keyframes shine {
-  0% {
-    background-position: 0;
-  }
-
-  60% {
-    background-position: 800;
-  }
-
-  100% {
-    background-position: 800;
-  }
-}
-
-@-webkit-keyframes shine {
+@keyframes shine {
   0% {
     background-position: 0;
   }
