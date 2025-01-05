@@ -1,5 +1,6 @@
 import React from "react";
 import Table from "./Table";
+import GraphCard from "./GraphCard";
 
 interface PostData {
   type: string;
@@ -41,7 +42,7 @@ const AnalyzeText = ({ text }: any) => {
         <Table postData={postData} />
 
         <div className="">
-            
+            <GraphCard postData={postData}/>
         </div>
       </div>
 

@@ -1,10 +1,8 @@
-/* eslint-disable no-use-before-define */
-
 import About from "@/components/About";
 import AnalyzeText from "@/components/AnalyzeText";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
-// import { fetchData } from "@/lib/fetchAction";
+import { fetchData } from "@/lib/fetchAction";
 
 export default async function Home() {
   // const res = await fetchData("Analyze the provided social media engagement data and return a concise summary with average likes, comments, and shares for each post type (e.g., carousel, reels, static images). Additionally, provide a brief insight into the best-performing post type and a short recommendation for optimizing engagement. Ensure the output is suitable for direct visualization in graphs")
