@@ -20,7 +20,6 @@ const fetchData = async (prompt: string) => {
     if (!data) {
       throw new Error('Network response was not ok');
     }
-    console.log("in page of fetchdata fun", data);
 
     return data;
   } catch (error) {
